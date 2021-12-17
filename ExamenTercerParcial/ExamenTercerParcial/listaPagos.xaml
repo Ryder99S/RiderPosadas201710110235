@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenTercerParcial.listaPagos">
+    <ContentPage.Content>
+
+        <StackLayout Padding="0" Margin="10,100,10,0" HorizontalOptions="FillAndExpand">
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Lista de Pagos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Frame  BackgroundColor="White" HeightRequest="1000" HasShadow="True" Padding="0" Margin="0">
+
+                <StackLayout>
+                    <Frame HeightRequest="200" Margin="4" CornerRadius="10" IsClippedToBounds="False" BackgroundColor="#DAECF9" HasShadow="True">
+                        <ListView x:Name="lisPagos" ItemTapped="lisPagos_ItemTapped">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition  Height="Auto"/>
+                                            </Grid.RowDefinitions>
+
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" ></ColumnDefinition>
+                                                <ColumnDefinition Width="*" ></ColumnDefinition>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+
+                                            </Grid.ColumnDefinitions>
+
+
+                                            <Label Grid.Column="0" Text="{Binding Id_pago}" TextColor="#0D3CB8" FontAttributes="Bold"/>
+                                            <Label Text="{Binding Descripcion}" Grid.Column="1" TextColor="#0D3CB8" FontAttributes="Bold"/>
+                                            <Label Text="{Binding Monto}" Grid.Column="2" VerticalOptions="Center" TextColor="Black"/>
+                                            <Label Text="{Binding Fecha}" Grid.Column="3" TextColor="#0D3CB8" FontAttributes="Bold"/>
+                                        </Grid>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Frame>
+                    
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

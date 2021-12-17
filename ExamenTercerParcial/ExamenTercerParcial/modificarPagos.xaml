@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenTercerParcial.modificarPagos">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Background="White">
+
+                <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                    <Label Text="Modificar Pagos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                </Frame>
+
+                
+                <Entry x:Name="txtId" Text="{Binding Id_pago}" TextColor="Black" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" FontSize="0"/>
+
+                <Label Text="Descripcion" TextColor="Black"></Label>
+                <Entry x:Name="txtDescripcion" Text="{Binding Descripcion}" Placeholder="Ingrese la decripcion de pago" TextColor="Black" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                
+                <Label Text="Monto" TextColor="Black"></Label>
+                <Entry x:Name="txtMonto" Text="{Binding Monto}" Placeholder="L." Keyboard="Numeric" TextColor="Black" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+
+                <Label Text="Fecha" TextColor="Black" FontAttributes="Italic" ></Label>
+                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,-5,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                    <DatePicker MinimumDate="01/01/1980" DateSelected="fecha_DateSelected" x:Name="fecha"/>
+                </Frame>
+
+                <StackLayout Margin="-20,10,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="btnModificar" Text="Modificar " Clicked="btnModificar_Clicked"  HeightRequest="50" CornerRadius="30" FontAttributes="Bold" TextColor="White" BackgroundColor="#2196F3"  />
+                    <Button x:Name="btnEliminar" Text="Eliminar " Clicked="btnEliminar_Clicked"  HeightRequest="50" CornerRadius="30" FontAttributes="Bold" TextColor="White" BackgroundColor="#2196F3"  />
+                    
+                </StackLayout>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

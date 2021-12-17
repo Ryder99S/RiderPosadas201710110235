@@ -1,0 +1,17 @@
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\bin\Debug\netstandard2.0\ExamenTercerParcial.deps.json
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\bin\Debug\netstandard2.0\ExamenTercerParcial.dll
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\bin\Debug\netstandard2.0\ref\ExamenTercerParcial.dll
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\bin\Debug\netstandard2.0\ExamenTercerParcial.pdb
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\ExamenTercerParcial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\ExamenTercerParcial.AssemblyInfoInputs.cache
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\ExamenTercerParcial.AssemblyInfo.cs
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\ExamenTercerParcial.csproj.CoreCompileInputs.cache
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\ExamenTercerParcial.dll
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\ref\ExamenTercerParcial.dll
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\ExamenTercerParcial.pdb
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\ExamenTercerParcial.csproj.AssemblyReference.cache
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\listaPagos.xaml.g.cs
+C:\Users\rider\source\repos\ExamenTercerParcial\ExamenTercerParcial\ExamenTercerParcial\obj\Debug\netstandard2.0\modificarPagos.xaml.g.cs
